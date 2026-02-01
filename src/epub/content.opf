@@ -29,6 +29,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Dead Letter</dc:title>
 		<meta property="file-as" refines="#title">Dead Letter, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">An American Romance</dc:title>
+		<meta property="file-as" refines="#subtitle">American Romance, An</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Dead Letter: An American Romance</dc:title>
+		<meta property="file-as" refines="#fulltitle">Dead Letter, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-2">Triangles (Interpersonal relations) -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Murder -- Fiction</dc:subject>
@@ -38,43 +45,44 @@
 		<meta property="term" refines="#subject-2">sh2008112615</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107179</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<dc:description id="description">A junior lawyer investigates the murder of a man engaged to a woman he has feelings for.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Published under the pseudonym Seeley Regester in 1866, &lt;i&gt;The Dead Letter&lt;/i&gt; is considered to be the first full-length American detective novel. &lt;a href="https://standardebooks.org/ebooks/metta-victor"&gt;Metta Victor&lt;/a&gt; was a prolific author writing under several pen names, who pioneered the dime novel while contributing works to her husband's publishing firm in late 19th century America.&lt;/p&gt;
+			&lt;p&gt;In this wide-ranging “American Romance,” young lawyer Richard Redfield becomes entangled in a murder investigation when the fiancee of a woman he has feelings for is knifed on the way to visit the family in upstate New York. Richard is both suspect and investigator, and engages the services of Mr. Burton, a successful detective from New York City. The action moves from a Hudson Valley village to the City, and farther along to California and Mexico before the instigator of the crime is revealed.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/46708</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/deadletterameric00victiala</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Dead_Letter</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/metta-victor_the-dead-letter</meta>
 		<dc:creator id="author">Metta Victor</dc:creator>
 		<meta property="file-as" refines="#author">Victor, Metta</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Metta Victoria Fuller Victor</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Metta_Victor</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79043623</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">George Bellows</dc:contributor>
+		<meta property="file-as" refines="#artist">Bellows, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Bellows</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50007142</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Edwards</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Edwards, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Sonya Schermann</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Schermann, Sonya</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Igor Dikiy</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Dikiy, Igor</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/igor-dikiy-phd/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
