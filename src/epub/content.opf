@@ -50,7 +50,7 @@
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A junior lawyer investigates the murder of a man engaged to a woman he has feelings for.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Published under the pseudonym Seeley Regester in 1866, &lt;i&gt;The Dead Letter&lt;/i&gt; is considered to be the first full-length American detective novel. &lt;a href="https://standardebooks.org/ebooks/metta-victor"&gt;Metta Victor&lt;/a&gt; was a prolific author writing under several pen names, who pioneered the dime novel while contributing works to her husband's publishing firm in late 19th century America.&lt;/p&gt;
+			&lt;p&gt;Published under the pseudonym Seeley Regester in 1866, &lt;i&gt;The Dead Letter&lt;/i&gt; is considered to be the first full-length American detective novel. &lt;a href="https://standardebooks.org/ebooks/metta-victor"&gt;Metta Victor&lt;/a&gt; was a prolific author writing under several pen names, who pioneered the dime novel while contributing works to her husband’s publishing firm in late 19th century America.&lt;/p&gt;
 			&lt;p&gt;In this wide-ranging “American Romance,” young lawyer Richard Redfield becomes entangled in a murder investigation when the fiancee of a woman he has feelings for is knifed on the way to visit the family in upstate New York. Richard is both suspect and investigator, and engages the services of Mr. Burton, a successful detective from New York City. The action moves from a Hudson Valley village to the City, and farther along to California and Mexico before the instigator of the crime is revealed.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
